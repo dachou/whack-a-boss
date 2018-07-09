@@ -1,0 +1,135 @@
+﻿body {
+    background: url('../images/logo-color-620x300.png');
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-color: #606060;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+.mole
+{
+    width: 200px;
+    height: 200px;
+    border: 10px solid transparent;
+    background-repeat: no-repeat;
+    opacity: 0;
+    text-align: left;
+    position: relative;
+    z-index: 100;
+}
+
+.button
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.btn_caption
+{
+    position: relative;
+    left: 20px;
+    top: 160px; 
+    width: 160px;
+    text-align: right; 
+    font-family: 'Segoe UI Symbol';
+}
+
+.tile
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.score
+{
+    position: relative;
+    right: 5px;
+    top: 0px; 
+    width: 195px;
+    text-align: right; 
+    font-family: 'Segoe UI Symbol';
+    font-size: 84pt;
+}
+
+.score_caption
+{
+    position: relative;
+    left: 20px;
+    top: 0px; 
+    width: 160px;
+    text-align: right; 
+    font-family: 'Segoe UI Symbol';
+}
+
+.game_over
+{
+    position: absolute;
+    right: 300px;
+    left: 300px;
+    top: 100px;
+    bottom: 0px;
+    background-color: #606060;
+    background-image: url('../images/gameover.png');
+    background-position: center;
+    background-repeat:  no-repeat;
+    opacity: 0;
+    z-index: 1;
+}
+
+.boss
+{
+    position: absolute;
+    right: 300px;
+    left: 300px;
+    top: 100px;
+    height: 200px;
+    text-align: left; 
+    font-family: 'Segoe UI Symbol';
+    font-size: 20pt;
+    opacity: 0;
+    z-index: 2;
+}
+
+.game_mesg
+{
+    position: absolute;
+    right: 400px;
+    left: 400px;
+    bottom: 0px;
+    height: 250px;
+    text-align: left;
+    line-height: 1.7;
+    font-family: 'Segoe Print';
+    font-size: 20px;
+    opacity: 1;
+    z-index: 2;
+}
+
+.game_snapped
+{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: #00B0F0;
+    background-image: url('../images/logo-blue-150x150.png');
+    background-position: center;
+    background-repeat:  no-repeat;
+    opacity: 0;
+    z-index: 101;
+}

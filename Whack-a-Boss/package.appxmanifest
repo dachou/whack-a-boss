@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="17897DavidChou.Whack-a-Boss" Version="1.0.0.0" Publisher="CN=C4F5717A-0155-439E-9D19-B256F88EC8FB" />
+  <Properties>
+    <DisplayName>Whack-a-Boss</DisplayName>
+    <PublisherDisplayName>David Chou</PublisherDisplayName>
+    <Logo>images\logo-blue-50x50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Whack-a-Boss" Logo="images\logo-blue-150x150.png" SmallLogo="images\logo-blue-30x30.png" Description="Whack-a-Boss" ForegroundText="light" BackgroundColor="#606060" ToastCapable="false">
+        <DefaultTile ShowName="allLogos" WideLogo="images\logo-blue-310x150.png" ShortName="Whack-a-Boss" />
+        <SplashScreen Image="images\logo-color-620x300.png" BackgroundColor="#606060" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
